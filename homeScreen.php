@@ -1,11 +1,3 @@
-<?php
-    session_start();
-    if(!session_is_registered(username)){
-    header("location:main_login.php");
-    }
-?>
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -23,7 +15,7 @@
             <button type="button" align="right" id="logout_button">CREATE NEW USER</button>
         </a>
         
-        <div id="welcome">Welcome, </div>
+        <div id="welcome">Welcome, <span id="welcome_name"><?php echo $username; ?></span></div>
         
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         
@@ -49,12 +41,5 @@
          <a href="composeMessage.html">
             <button type="button" id="new_message_button" >New Message</button>
         </a>
-
-        
-        
     </body>
-    
-    
-    
-    
 </html>

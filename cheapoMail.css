@@ -208,6 +208,19 @@ li
     font-family: "Atlanta", "Century Gothic";
 }
 
+#welcome_name
+{
+    width: auto;
+    height: auto;
+    color: #00FF7F;
+    margin: 10px;
+    padding: 8px;
+    float: right;
+    font-size: 30px;
+    clear: both;
+    font-family: "Atlanta", "Century Gothic";
+}
+
 
 
 #input2
