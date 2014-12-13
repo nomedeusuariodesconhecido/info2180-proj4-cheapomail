@@ -1,30 +1,30 @@
 <?php
     
-    $servername = "0.0.0.0";
+    $serverName = "0.0.0.0";
     $username = "nomedeusuario";
 
     // Create connection
-    $conn = mysqli_connect($servername, $username);
+    $conn = mysql_connect($serverName, $username);
     
     // Check connection
     if (!$conn) {
-        die("Connection failed: " . mysql_connect_error());
+        die("Connection failed: " . mysql_error());
     }
     echo "Connected successfully!" . "<br />";
     
     mysql_select_db("CHEAPOMAIL");
     
     
-    $username = $_POST['Username']; 
-    $password = $_POST['Password']; 
+    $username = $_POST['username']; 
+    $password = $_POST['password']; 
     
     $username = stripslashes($username);
     $password = stripslashes($password);
     $username = mysql_real_escape_string($username);
     $password = mysql_real_escape_string($password);
     
-    $sql = "SELECT * FROM $User WHERE Username='$username' and Password='$password'";
-    $result = mysql_query($sql);
+    $sql = "SELECT * FROM User WHERE Username='$username' and Password='$password'";
+    $result = mysql_query($conn, $sql);
     
     // Mysql_num_row is counting table row
     $count = mysql_num_rows($result);
