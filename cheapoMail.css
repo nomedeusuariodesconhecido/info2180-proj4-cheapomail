@@ -1,0 +1,253 @@
+/*
+THE UNIVERSITY OF THE WEST INDIES                 File Name: .../info2180project4-cheapo_mail/cheapoMail.css
+FACULTY OF SCIENCE & TECHNOLOGY                   Created by: 620064203
+DEPARTMENT OF COMPUTING                           Created on: 01/12/2014
+INFO2180 - Dynamic Web Development I
+Project 4 - "Cheapo Mail"
+*/
+
+
+
+@font-face{
+        
+    font-family: "Inversionz";
+    src: url(inversionz.otf);
+}
+
+@font-face{
+    
+    font-family: "Atlanta";
+    src: url(atlanta.ttf);
+}    
+
+
+.input
+{
+   display: block; 
+   border: 2px solid white;
+   margin-bottom: 15px;
+   font-family: "Atlanta", "Century Gothic";
+   padding: 10px;
+   border-radius: 4px;
+   width: 300px;
+   height: auto;
+   background-color: transparent;
+   color: white;
+}
+
+
+
+.submit_button
+{
+    width: auto;
+    height: auto;
+    color: #DAA520;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid #DAA520;
+    background-color: transparent;
+    font-family: "Atlanta", "Century Gothic";
+}
+
+.submit_button:hover
+{
+    border-color: #00FF7F;
+    color: #00FF7F;
+}
+
+
+
+
+.label
+{
+    font-family: "Atlanta", "Century Gothic";
+    margin-bottom: 6px;
+    color: white;
+    font-size: 24px;
+    
+}
+
+
+.banner
+{
+    font-size: 96px;
+    z-index: 1;
+    color: white;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    border-radius: 8px;
+    border: 5px solid white;
+    padding: 10px 10px 10px 50px;
+    font-family: "Inversionz";
+    text-shadow: 2px 2px #111111;
+    box-shadow:1px 1px 25px #111111;
+    margin: -10px;
+}
+
+
+
+.screens
+{
+    width: 800px;
+    height: 1040px;
+    margin: auto;
+    background-size: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("cheapomail-body3.jpg");
+}
+
+li
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background-color: #B8860B;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    
+}
+
+
+
+#banner2
+{
+    color: white;
+    width: 400px;
+    z-index: 1;
+    font-size: 96px;
+    font-family: "Inversionz";
+    text-align: left;
+    border-radius: 8px;
+    border: 5px solid white;
+    padding: 10px 10px 10px 50px;
+    text-shadow: 2px 2px #111111;
+    box-shadow: 1px 1px 25px #111111;
+    margin: -10px;
+}
+
+
+
+#content
+{
+    width: 800px;
+    height: 1650px;
+    margin: auto;
+    background-size: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-image: url("cheapomail-body2.jpg");
+}
+
+
+
+#message_area
+{
+     margin-top: 50px; 
+     position: absolute;
+}
+
+
+
+#new_message_button
+{
+    margin-top: 30px; 
+    position: relative;
+    float: right;
+    width: auto;
+    height: auto;
+    color: #DAA520;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid #DAA520;
+    background-color: transparent;
+    font-family: "Atlanta", "Century Gothic";
+}
+
+
+
+#new_message_button:hover
+{
+    border-color: #00FF7F;
+    color: #00FF7F;
+}
+
+
+
+#logout_button:hover
+{
+    border-color: #00FF7F;
+    color: #00FF7F;
+}
+
+
+
+#logout_button
+{
+    width: auto;
+    height: auto;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    float: right;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid white;
+    background-color: transparent;
+    font-family: "Atlanta", "Century Gothic";
+}
+
+
+
+#welcome
+{
+    width: auto;
+    height: auto;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    float: right;
+    font-size: 18px;
+    clear: both;
+    font-family: "Atlanta", "Century Gothic";
+}
+
+#welcome_name
+{
+    width: auto;
+    height: auto;
+    color: #00FF7F;
+    margin: 10px;
+    padding: 8px;
+    float: right;
+    font-size: 30px;
+    clear: both;
+    font-family: "Atlanta", "Century Gothic";
+}
+
+
+
+#input2
+{
+   color: white;
+   display: block;
+   padding: 10px;
+   width: 300px;
+   height: auto;
+   border-radius: 4px;
+   margin-bottom: 15px;
+   border: 2px solid white;
+   background-color: transparent;
+   font-family: "Atlanta", "Century Gothic";
+}

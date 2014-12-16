@@ -1,0 +1,50 @@
+<!--
+THE UNIVERSITY OF THE WEST INDIES                 File Name: .../info2180project4-cheapo_mail/composeMessage.html
+FACULTY OF SCIENCE & TECHNOLOGY                   Created by: 620064203
+DEPARTMENT OF COMPUTING                           Created on: 01/12/2014
+INFO2180 - Dynamic Web Development I
+Project 4 - "Cheapo Mail"
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COMPOSE MESSAGE</title>
+        <link rel="stylesheet" href="cheapoMail.css" type="text/css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js"></script>
+    </head>
+    
+    <body class="screens">
+        
+        <a href="homeScreen.html">
+        <div class="banner">cHEAPO <br />mAIL</div>
+        </a>
+        
+        <button type="button" align="right" id="logout_button">LOG OUT</button>
+        
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        <div class="label">COMPOSE NEW MESSAGE</div>
+        <hr />;
+        
+        
+        <form id="message_area" action="cheapoMail.php" method="post">
+            
+            <input type="text" name="subject" placeholder="Subject" class="input"/>
+            
+            <input type="text" name="recipient" placeholder="Recipient" class="input"/>
+            
+            <textarea class="input" rows="10" columns="50" placeholder="Message"></textarea>
+            
+            <input class="submit_button" type="submit" name="submit" value="SEND MESSAGE"/>
+        </form>
+        
+        
+    </body>
+    
+    
+    
+    
+</html>

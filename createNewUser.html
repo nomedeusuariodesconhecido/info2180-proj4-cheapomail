@@ -1,0 +1,55 @@
+<!--
+THE UNIVERSITY OF THE WEST INDIES                 File Name: .../info2180project4-cheapo_mail/createNewUser.html
+FACULTY OF SCIENCE & TECHNOLOGY                   Created by: 620064203
+DEPARTMENT OF COMPUTING                           Created on: 01/12/2014
+INFO2180 - Dynamic Web Development I
+Project 4 - "Cheapo Mail"
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CREATE NEW USER</title>
+        <link rel="stylesheet" href="cheapoMail.css" type="text/css" />
+    </head>
+    
+    <body class="screens">
+        
+        <a href="homeScreen.html">
+        <div class="banner">cHEAPO <br />mAIL</div>
+        </a>
+        
+        <button type="button" align="right" id="logout_button">LOG OUT</button>
+        
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        <div class="label">CREATE NEW USER</div>
+        <hr />;
+        
+        
+        <form id="message_area" action="createNewUser.php" method="post">
+            
+            <input type="text" name="firstName" placeholder="First Name" class="input"/>
+            
+            <input type="text" name="lastName" placeholder="Last Name" class="input"/>
+            
+            <input type="text" name="username" placeholder="Username" class="input"/>
+            
+            <input type="password" name="password" placeholder="Password" class="input"/>
+            
+            <input class="submit_button" type="submit" name="submit" value="CREATE USER"/>
+            
+            <a href="homeScreen.html">
+                <button class="submit_button" type="button" name="cancel">CANCEL</button>
+            </a>
+        </form>
+        
+        
+        
+    </body>
+    
+    
+    
+    
+</html>
