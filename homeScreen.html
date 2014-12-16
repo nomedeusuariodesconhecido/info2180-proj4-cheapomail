@@ -1,8 +1,19 @@
+<!--
+THE UNIVERSITY OF THE WEST INDIES                 File Name: .../info2180project4-cheapo_mail/homeScreen.html
+FACULTY OF SCIENCE & TECHNOLOGY                   Created by: 620064203
+DEPARTMENT OF COMPUTING                           Created on: 01/12/2014
+INFO2180 - Dynamic Web Development I
+Project 4 - "Cheapo Mail"
+-->
+
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>HOME SCREEN</title>
         <link rel="stylesheet" href="cheapoMail.css" type="text/css" />
+        <script type="text/javascript" src="HomeScreen.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js"></script>
     </head>
     
     <body class="screens">
@@ -15,7 +26,7 @@
             <button type="button" align="right" id="logout_button">CREATE NEW USER</button>
         </a>
         
-        <div id="welcome">Welcome, <span id="welcome_name"><?php echo $username; ?></span></div>
+        <div id="welcome">Welcome, <span id="welcome_name"></span></div>
         
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         

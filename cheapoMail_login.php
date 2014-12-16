@@ -1,3 +1,12 @@
+<!--
+THE UNIVERSITY OF THE WEST INDIES                 File Name: .../info2180project4-cheapo_mail/cheapoMail_login.php
+FACULTY OF SCIENCE & TECHNOLOGY                   Created by: 620064203
+DEPARTMENT OF COMPUTING                           Created on: 01/12/2014
+INFO2180 - Dynamic Web Development I
+Project 4 - "Cheapo Mail"
+-->
+
+
 <?php
     
     $serverName = "0.0.0.0";
